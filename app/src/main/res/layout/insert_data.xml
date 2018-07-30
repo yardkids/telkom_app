@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:drawableBottom="@drawable/telkom"
+            android:gravity="center"
+            android:text="Add Data"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/uid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="User Id"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nama"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/perusahaan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Perusahaan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/kota"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Kota"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/insert_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
